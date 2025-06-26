@@ -1,0 +1,327 @@
+fileFormatVersion: 2
+guid: 55a2810abff33014b970926d1e53a6a0
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LIGHT EMISSION
+    second: {fileID: 2100000, guid: c5a30e2bf646d074ba7a8612fd813d5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LIGHT EMISSION STREET LIGHT
+    second: {fileID: 2100000, guid: 8035dc7786ef95047b8b6cca10303a45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LIGHT EMISSION.001
+    second: {fileID: 2100000, guid: ceee25c5704fa2146979eea160b68d68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_ASPHALT
+    second: {fileID: 2100000, guid: fea7d6fee60744b458de694ba11d4772, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_CONCRETE BROWN
+    second: {fileID: 2100000, guid: 4776193d800cc694581b7cfb7da0dc3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_CONCRETE BROWN 4
+    second: {fileID: 2100000, guid: e37e06b51097c7d469e31164ce5c77d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_CONCRETE BROWN.001
+    second: {fileID: 2100000, guid: a4095a0f854e76b4f95747e4bfc6d060, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_CONCRETE BROWN.002
+    second: {fileID: 2100000, guid: d34ce372cf3205945be730a54d7a66d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_CONCRETE GREY 1
+    second: {fileID: 2100000, guid: 294175311f25fe946b22756b8ab1fe72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_CONCRETE GREY 2
+    second: {fileID: 2100000, guid: b572180415e86a0488e92ecebda5cd71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_CONCRETE MAGENTA
+    second: {fileID: 2100000, guid: 1f8a63c094e5d3348a403b76ce8752c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_CONCRETE ORANGE
+    second: {fileID: 2100000, guid: 2fbc0bb6ea7d09449bf0ae5a52074d7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_CONCRETE RED
+    second: {fileID: 2100000, guid: 534dd0cfe3cb10449add7483045b539e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_CONCRETE TEAL
+    second: {fileID: 2100000, guid: 70d27f028e523ae4fb15d25f6840aaea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_CONCRETE WHITE 1
+    second: {fileID: 2100000, guid: 2b93e58e03a7a6c4e97dcd955ec03df8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_CONCRETE WHITE 2
+    second: {fileID: 2100000, guid: 32b3922b0a9364745beab33d57727fd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_ELECTRIC GRID
+    second: {fileID: 2100000, guid: 3b3519770b1957c42a37fc1b1d16dfb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_FABRIC BLUE
+    second: {fileID: 2100000, guid: 551be6c1133a9a246a48a317b2199def, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_FLOOR
+    second: {fileID: 2100000, guid: 12742b60768010a428fb48871e870cdc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_FLOOR 2
+    second: {fileID: 2100000, guid: 03b3b11b1c222c84f84fb306ea2388e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_FLOOR 3
+    second: {fileID: 2100000, guid: 9d31418f8ab22414288925514220adcd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_GLASS
+    second: {fileID: 2100000, guid: 751a0f03ec7846d4486a3ea087566a82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_GLASS.001
+    second: {fileID: 2100000, guid: 21ca9c87f652db246a1d90f6377c7733, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_HYDRANT
+    second: {fileID: 2100000, guid: a27218dd08ba3404188a7f9feb06aa99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_METAL GOLD
+    second: {fileID: 2100000, guid: 6ba7caf887a6b9c4aac92a1aa90c931a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_METAL GREEN
+    second: {fileID: 2100000, guid: 4e9a94c8bb0703445b1dbcacb19435b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_METAL RED
+    second: {fileID: 2100000, guid: 267c6ab48f592d14e99f20f938185696, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_METAL SILVER
+    second: {fileID: 2100000, guid: 3e40cdc84ef927b44b0ead6134534886, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_METAL SILVER.001
+    second: {fileID: 2100000, guid: 38604e3546cab5b479c626eec4997a75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_TRAFFIC LIGHTS
+    second: {fileID: 2100000, guid: 34b1dbf86b96a4f4dbc4e0aa2716d8bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_TRAFFIC LIGHTS EMIT
+    second: {fileID: 2100000, guid: 5ac0667d37134b24fbda1d5ace822075, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_TRAFFIC SIGN
+    second: {fileID: 2100000, guid: 01c621ec56ec0524192685f57c445823, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_VEGETATION
+    second: {fileID: 2100000, guid: 847d8d0860697e648a7db4eab266d4bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_WALL INT
+    second: {fileID: 2100000, guid: d8ba6cbad0b8f4e4c9760a4f8dcaab04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_WALL INT 3
+    second: {fileID: 2100000, guid: 383a595da85e4eb4a89a551a2df80946, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_WALL INT 4
+    second: {fileID: 2100000, guid: e6d26a69f39db2d4c905e864495e5b73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_WALL_INT
+    second: {fileID: 2100000, guid: 4a17c5e76faef5f47991bb1ff4945345, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_WOOD
+    second: {fileID: 2100000, guid: 85750eaf99260b745b81323d956814a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_WOOD BROWN
+    second: {fileID: 2100000, guid: 2d7350268261bdb468f177d721526d9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_WOOD RED
+    second: {fileID: 2100000, guid: 30b33fc5c03be9c47a0ff4c2d00490d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_WOOD WHITE
+    second: {fileID: 2100000, guid: 740555250d3c73d4a85c48ec491f7c7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_WOOD YELLOW
+    second: {fileID: 2100000, guid: dbb0e09f28aed06448c8a9a8668744d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ROAD CROSS DECALS
+    second: {fileID: 2100000, guid: d2dc453a877a660469c5a14642242bfd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: STREET TRASH DECALS
+    second: {fileID: 2100000, guid: 41ed11bbe2383be4f93a1c12e6bbc1de, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
