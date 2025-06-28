@@ -1,0 +1,252 @@
+fileFormatVersion: 2
+guid: 4b5c418afb5271344a49682a7828a6ad
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VdHWalls_Doors
+    second: {fileID: 2100000, guid: ed61f5a61d061654cbb425c49bb27f85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VdHWalls_PanX
+    second: {fileID: 2100000, guid: d84128376228d264d9892ff572d66521, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VdHWalls_PanZa
+    second: {fileID: 2100000, guid: 74885ba1000619d46a4dfd32a04af19f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VdHWalls_PanZb
+    second: {fileID: 2100000, guid: b73d891d2f254f54e986bd2ad251ed76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VdHWalls_Wind1
+    second: {fileID: 2100000, guid: ac6c437f1e4791e49910e3851f921fbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VdHWalls_Wind2a
+    second: {fileID: 2100000, guid: c9bcc19cf70fc824a84957acceba7cb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VdHWalls_Wind2b
+    second: {fileID: 2100000, guid: 64cb9dfa075518844882ff4ae3706e21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VoodoHut_AuxRoofBases
+    second: {fileID: 2100000, guid: 3ae79ad7dd88fa447b25da82794c07e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VoodoHut_AuxRoofFront
+    second: {fileID: 2100000, guid: 837eb8189a85be8478cf0e94403dcf61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VoodoHut_AuxRoofLSide
+    second: {fileID: 2100000, guid: ce8a00c79d4acb14293a2b8720143ec6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VoodoHut_AuxRoofVeg
+    second: {fileID: 2100000, guid: b9f14940eacdd7545bb9ff9ce0af2251, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VoodoHut_BackIn
+    second: {fileID: 2100000, guid: 13334e4886a7c1f4bae8fe6770d468dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VoodoHut_Bases1a
+    second: {fileID: 2100000, guid: c68b3c445fe68cf438447df44d4ae2a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VoodoHut_Bases2a
+    second: {fileID: 2100000, guid: 74e99524f6d6b9842ba07d35c83ae43d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VoodoHut_Bases2b
+    second: {fileID: 2100000, guid: a21337e9a745f1448b352ff11f2e977a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VoodoHut_Bases3
+    second: {fileID: 2100000, guid: 8909a3a4f8f4e1142b20f6df03bc8c1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VoodoHut_Bases4
+    second: {fileID: 2100000, guid: 5eb192bff1c76bf4dbf95d4741d9d153, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VoodoHut_FenceH
+    second: {fileID: 2100000, guid: b8a6300d5da65dd47ada7fc81a24c419, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VoodoHut_FenceV
+    second: {fileID: 2100000, guid: 2dd12ab05a7cbdd409af49e4851e30d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VoodoHut_FloorDock
+    second: {fileID: 2100000, guid: 514e24df741d7cf43ad953e6678319af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VoodoHut_FloorInside
+    second: {fileID: 2100000, guid: 9ad76006dfcef154f99bc962c421b7a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VoodoHut_FlrCrrdrFront
+    second: {fileID: 2100000, guid: b92c9c917fe034b4b84c7a62d3ec0670, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VoodoHut_FlrCrrdrSide
+    second: {fileID: 2100000, guid: 6400b2e3caa19bd478490bdc044181f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VoodoHut_RSideCloths
+    second: {fileID: 2100000, guid: 07b1b54e80e53c64a997c94cb730f33e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VoodoHut_RSideRope
+    second: {fileID: 2100000, guid: 45916845979bfa540a690eb7536feaa1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VoodoHut_RoofMain
+    second: {fileID: 2100000, guid: fc4898803ee228543bc61dfb47b8d625, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VoodoHut_RoofSticks
+    second: {fileID: 2100000, guid: 66decdd240bc05746962365d866f3e7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VoodoHut_RoofWoods
+    second: {fileID: 2100000, guid: 570ec288ed7e9f048887e65ffe8243be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VoodoHut_Stairs
+    second: {fileID: 2100000, guid: 521a2a21f20f8a74386960b216f3ba12, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
