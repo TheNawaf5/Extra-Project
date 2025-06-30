@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class UseChest : MonoBehaviour
 {
@@ -45,13 +46,31 @@ public class UseChest : MonoBehaviour
     void Update()
     {
 
-
-        if (inReach && Input.GetButtonDown("Interact"))
+        if (inReach && Keyboard.current != null && Keyboard.current.eKey.wasPressedThisFrame)
         {
+            Debug.Log("E key pressed while in reach");
             handUI.SetActive(false);
             objToActivate.SetActive(true);
-            OB.GetComponent<Animator>().SetBool("open", true);
-            OB.GetComponent<BoxCollider>().enabled = false;
+            Animator anim = OB.GetComponent<Animator>();
+            if (anim != null)
+            {
+                anim.SetBool("open", true);
+                Debug.Log("Animator found and open set to true");
+            }
+            else
+            {
+                Debug.LogWarning("Animator component not found on OB");
+            }
+            BoxCollider boxCol = OB.GetComponent<BoxCollider>();
+            if (boxCol != null)
+            {
+                boxCol.enabled = false;
+                Debug.Log("BoxCollider disabled");
+            }
+            else
+            {
+                Debug.LogWarning("BoxCollider component not found on OB");
+            }
         }
     }
 
