@@ -4519,7 +4519,7 @@ MonoBehaviour:
   - {fileID: 2092151322}
   - {fileID: 1157741774}
   idleTime: 4
-  walkSpeed: 2.5
+  walkSpeed: 1
   chaseSpeed: 4
   sightDistance: 30
   idleSound: {fileID: 8300000, guid: 727cc9b5b68ce4a4da1968c42eda6842, type: 3}
@@ -4534,7 +4534,7 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1014841464}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
+  m_Avatar: {fileID: 9000000, guid: e1d3e30d1b1e29649887c6f566e6ffb3, type: 3}
   m_Controller: {fileID: 9100000, guid: f0b8007516400954a9a7030ee8fe2b66, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
@@ -6625,7 +6625,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &1864319999
 Animator:
   serializedVersion: 7

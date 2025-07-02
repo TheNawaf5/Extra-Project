@@ -1,30 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1101 &-8467312100843171390
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: IsWalking
-    m_EventTreshold: 0
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 447935080854444821}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0.25
-  m_TransitionOffset: 0
-  m_ExitTime: 0.94186044
-  m_HasExitTime: 0
-  m_HasFixedDuration: 1
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 1
-  m_CanTransitionToSelf: 1
 --- !u!1101 &-7275789348142752610
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -50,7 +25,7 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
---- !u!1101 &-7101621461566675848
+--- !u!1101 &-5954573082140758305
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -58,11 +33,11 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: Death
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsWalking
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 9201164379742016123}
+  m_DstState: {fileID: -3951045599332867702}
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
@@ -82,13 +57,13 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Enemy_Idle
+  m_Name: Enemy_Idle2
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
-  - {fileID: -8467312100843171390}
   - {fileID: -7275789348142752610}
   - {fileID: -3444227869797500156}
+  - {fileID: -2926616099437627272}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -98,7 +73,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: bbfcb06fa401a284db3f86e5f1ead57e, type: 2}
+  m_Motion: {fileID: 7400000, guid: 5b419fc85a8da2e458b3d5cc56ecba3e, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -117,6 +92,31 @@ AnimatorStateTransition:
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 9201164379742016123}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.94186044
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1101 &-2926616099437627272
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: IsWalking
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 447935080854444821}
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
@@ -154,7 +154,7 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
---- !u!1101 &-1009291234058026605
+--- !u!1101 &-1386776508136686840
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -162,11 +162,11 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 2
-    m_ConditionEvent: IsWalking
+  - m_ConditionMode: 1
+    m_ConditionEvent: IsChasing
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: -3951045599332867702}
+  m_DstState: {fileID: -993691676503845086}
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
@@ -186,7 +186,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Enemy_Run
+  m_Name: Enemy_Run2
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -201,7 +201,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 7462e90426679eb45b6e47e2e59e4ace, type: 2}
+  m_Motion: {fileID: 7400000, guid: eac59ef80a61db248a1ab7c243ba9b63, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -254,13 +254,13 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Enemy_Walk
+  m_Name: Enemy_Walk2
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
-  - {fileID: -1009291234058026605}
-  - {fileID: -7101621461566675848}
-  - {fileID: 8913402490716968925}
+  - {fileID: -5954573082140758305}
+  - {fileID: 7283135437947387253}
+  - {fileID: -1386776508136686840}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -270,7 +270,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 780fc335c10d4f645bedb33c956de5d3, type: 2}
+  m_Motion: {fileID: 7400000, guid: bc24d06366a0c15488fa582a60d016ff, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -321,7 +321,7 @@ AnimatorStateMachine:
     m_Position: {x: 540, y: 60, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 447935080854444821}
-    m_Position: {x: 290, y: 60, z: 0}
+    m_Position: {x: 250, y: 60, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -332,7 +332,7 @@ AnimatorStateMachine:
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: -3951045599332867702}
---- !u!1101 &8913402490716968925
+--- !u!1101 &7283135437947387253
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -341,10 +341,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsChasing
+    m_ConditionEvent: Death
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: -993691676503845086}
+  m_DstState: {fileID: 9201164379742016123}
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
@@ -364,7 +364,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Enemy_Death
+  m_Name: Enemy_Death2
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -377,7 +377,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 04bdf43f9a393bd40ae6250cc55a137d, type: 2}
+  m_Motion: {fileID: 7400000, guid: 75a92b74ceb0f2e40b95eba9066faedb, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
