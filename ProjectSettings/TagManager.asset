@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Reach
   - Enemy
+  - Wood
   layers:
   - Default
   - TransparentFX
@@ -13,7 +14,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Wood
   - 
   - 
   - 

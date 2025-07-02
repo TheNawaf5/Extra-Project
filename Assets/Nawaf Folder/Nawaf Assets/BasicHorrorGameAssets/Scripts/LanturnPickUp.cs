@@ -43,9 +43,8 @@ public class LanturnPickUp : MonoBehaviour
 
     void Update()
     {
-
-
-        if (inReach && Input.GetButtonDown("Interact"))
+        // Use the new Input System for E key
+        if (inReach && UnityEngine.InputSystem.Keyboard.current != null && UnityEngine.InputSystem.Keyboard.current.eKey.wasPressedThisFrame)
         {
             handUI.SetActive(false);
             lanturn.SetActive(true);

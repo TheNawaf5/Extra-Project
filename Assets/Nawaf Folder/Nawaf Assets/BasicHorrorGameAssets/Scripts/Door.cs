@@ -51,15 +51,14 @@ public class Door : MonoBehaviour
 
     void Update()
     {
-
-
-        if (inReach && Input.GetButtonDown("Interact") && !invKey.activeInHierarchy)
+        // Use the new Input System for E key
+        if (inReach && UnityEngine.InputSystem.Keyboard.current != null && UnityEngine.InputSystem.Keyboard.current.eKey.wasPressedThisFrame && !invKey.activeInHierarchy)
         {
             handUI.SetActive(true);
             UIText.SetActive(true);
         }
 
-        if (inReach && Input.GetButtonDown("Interact") && invKey.activeInHierarchy)
+        if (inReach && UnityEngine.InputSystem.Keyboard.current != null && UnityEngine.InputSystem.Keyboard.current.eKey.wasPressedThisFrame && invKey.activeInHierarchy)
         {
             handUI.SetActive(false);
             UIText.SetActive(false);
