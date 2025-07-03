@@ -5,9 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Nawaf Folder/MainMenu.unity
+    guid: ba1503bfc2df9e54fb46e4356be54f34
+  - enabled: 1
+    path: Assets/Nawaf Folder/TheNawaf.unity
+    guid: 6bc392391078ce441a9bcf7bf0f50b52
+  - enabled: 1
+    path: Assets/Nawaf Folder/Dead.unity
+    guid: 7bd932c4db2866445a4ce0f270bdd4e4
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

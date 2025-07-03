@@ -8,7 +8,7 @@ public class MenuStuff : MonoBehaviour
     public string nextSceneName; // Name of the next scene to load
     public void B_LoadScene()
     {
-        SceneManager.LoadScene(nextSceneName);
+        SceneManager.LoadScene("TheNawaf");
     }
 
 
