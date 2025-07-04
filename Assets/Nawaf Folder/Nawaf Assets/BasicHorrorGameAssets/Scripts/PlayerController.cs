@@ -31,6 +31,12 @@ public class PlayerController : MonoBehaviour
     private bool isFootstepCoroutineRunning = false;
     private AudioClip[] currentFootstepSounds;
 
+    // Head Bob (Camera Sway) Settings:
+    public float headBobAmount = 0.05f;
+    public float headBobSpeed = 10f;
+    private float headBobTimer = 0f;
+    private Vector3 camInitialLocalPos;
+
     Vector3 moveDirection = Vector3.zero;
     float rotationX = 0;
     float rotationY = 0;
@@ -58,6 +64,12 @@ public class PlayerController : MonoBehaviour
 
         // Initialize current footstep sounds to wood sounds by default
         currentFootstepSounds = woodFootstepSounds;
+
+        // Store the initial camera local position for head bob
+        if (playerCam != null)
+        {
+            camInitialLocalPos = playerCam.transform.localPosition;
+        }
     }
 
     void Update()
@@ -134,6 +146,24 @@ public class PlayerController : MonoBehaviour
         else if (curSpeedX == 0f && curSpeedY == 0f)
         {
             isWalking = false;
+        }
+
+        // Head Bob (Camera Sway) Effect
+        if (playerCam != null)
+        {
+            if (characterController.isGrounded && (Mathf.Abs(curSpeedX) > 0.1f || Mathf.Abs(curSpeedY) > 0.1f))
+            {
+                headBobTimer += Time.deltaTime * headBobSpeed * (isRunning ? 1.5f : 1f);
+                float bobOffsetY = Mathf.Sin(headBobTimer) * headBobAmount;
+                float bobOffsetX = Mathf.Cos(headBobTimer * 0.5f) * headBobAmount * 0.5f;
+                playerCam.transform.localPosition = camInitialLocalPos + new Vector3(bobOffsetX, bobOffsetY, 0);
+            }
+            else
+            {
+                // Reset camera position smoothly when not moving
+                playerCam.transform.localPosition = Vector3.Lerp(playerCam.transform.localPosition, camInitialLocalPos, Time.deltaTime * 8f);
+                headBobTimer = 0f;
+            }
         }
     }
 
