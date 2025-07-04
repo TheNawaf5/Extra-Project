@@ -1016,7 +1016,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1129,6 +1129,8 @@ MonoBehaviour:
   carpetFootstepSounds: []
   footstepAudioPosition: {fileID: 60956652}
   audioSource: {fileID: 60956646}
+  headBobAmount: 0.05
+  headBobSpeed: 10
   ZoomFOV: 50
   initialFOV: 80
   cameraZoomSmooth: 1
@@ -3301,7 +3303,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: f77b537cc0b58a947b90c93515828cdf, type: 3}
   m_Resource: {fileID: 8300000, guid: f77b537cc0b58a947b90c93515828cdf, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -5606,7 +5608,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 0094b87da3642ca458b366f20092a602, type: 3}
   m_Resource: {fileID: 8300000, guid: 0094b87da3642ca458b366f20092a602, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 1
   Mute: 0
