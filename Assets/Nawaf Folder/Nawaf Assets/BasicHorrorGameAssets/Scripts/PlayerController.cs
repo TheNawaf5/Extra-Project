@@ -137,13 +137,13 @@ public class PlayerController : MonoBehaviour
             playerCam.GetComponent<Camera>().fieldOfView = Mathf.Lerp(playerCam.fieldOfView, initialFOV, Time.deltaTime * cameraZoomSmooth);
         }
 
-        // Play footstep sounds when walking
-        if ((curSpeedX != 0f || curSpeedY != 0f) && !isWalking && !isFootstepCoroutineRunning)
+        // Play footstep sounds when walking and grounded
+        if ((curSpeedX != 0f || curSpeedY != 0f) && characterController.isGrounded && !isWalking && !isFootstepCoroutineRunning)
         {
             isWalking = true;
             StartCoroutine(PlayFootstepSounds(1.3f / (isRunning ? runSpeed : walkSpeed)));
         }
-        else if (curSpeedX == 0f && curSpeedY == 0f)
+        else if (curSpeedX == 0f || curSpeedY == 0f || !characterController.isGrounded)
         {
             isWalking = false;
         }
@@ -172,7 +172,7 @@ public class PlayerController : MonoBehaviour
     {
         isFootstepCoroutineRunning = true;
 
-        while (isWalking)
+        while (isWalking && characterController.isGrounded)
         {
             if (currentFootstepSounds.Length > 0)
             {
