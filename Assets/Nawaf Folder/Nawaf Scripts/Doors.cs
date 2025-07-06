@@ -12,6 +12,8 @@ public AudioSource closeDoorSound;
 
 
     public bool inReach;
+    public bool requiresKeypad = false;
+    [HideInInspector] public bool isUnlocked = false;
 
 
 
@@ -47,20 +49,29 @@ public AudioSource closeDoorSound;
 
     void Update()
     {
-        // Use the new Input System for E key, similar to UseChest
+        Debug.Log($"isUnlocked: {isUnlocked}, requiresKeypad: {requiresKeypad}");
+        // Only allow door interaction if not requiring keypad, or if unlocked by keypad
         if (inReach && UnityEngine.InputSystem.Keyboard.current != null && UnityEngine.InputSystem.Keyboard.current.eKey.wasPressedThisFrame)
         {
-            Debug.Log("E key pressed while in reach");
-            openText.SetActive(false);
-            if (!isOpen)
+            if (!requiresKeypad || isUnlocked)
             {
-                DoorOpens();
+                Debug.Log("E key pressed while in reach");
+                openText.SetActive(false);
+                if (!isOpen)
+                {
+                    DoorOpens();
+                }
+                else
+                {
+                    DoorCloses();
+                }
+                isOpen = !isOpen;
             }
             else
             {
-                DoorCloses();
+                Debug.Log("Door is locked by keypad!");
+                // Optionally show a locked UI message here
             }
-            isOpen = !isOpen;
         }
     }
     void DoorOpens ()
