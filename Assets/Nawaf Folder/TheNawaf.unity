@@ -1273,9 +1273,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e1d3e30d1b1e29649887c6f566e6ffb3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1014841473}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e1d3e30d1b1e29649887c6f566e6ffb3, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1014841472}
   m_SourcePrefab: {fileID: 100100000, guid: e1d3e30d1b1e29649887c6f566e6ffb3, type: 3}
 --- !u!1 &59543816
 GameObject:
@@ -1401,6 +1398,7 @@ GameObject:
   - component: {fileID: 60956647}
   - component: {fileID: 60956646}
   - component: {fileID: 60956653}
+  - component: {fileID: 60956654}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1672,6 +1670,31 @@ MonoBehaviour:
   flashlight: {fileID: 1282242394}
   turnOn: {fileID: 0}
   turnOff: {fileID: 0}
+--- !u!114 &60956654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60956645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7f0adbd3d915684cb53738519f95231, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 3
+  hitSounds:
+  - {fileID: 8300000, guid: f77b537cc0b58a947b90c93515828cdf, type: 3}
+  - {fileID: 8300000, guid: 35d5b6504cc523a48af1eb0d4f2ee41b, type: 3}
+  - {fileID: 8300000, guid: 8c476308bc696e94c9a913bef1cf4ce9, type: 3}
+  deathSound: {fileID: 8300000, guid: 3552fe8062db1e240af258b8cbaf1cc2, type: 3}
+  playerAnimator: {fileID: 0}
+  hitAnimationTrigger: Hit
+  hitAnimationDuration: 0.5
+  fadeout: {fileID: 1864319998}
+  deathSceneName: Dead
+  deathDelay: 1
+  healthText: {fileID: 0}
 --- !u!1 &66842156
 GameObject:
   m_ObjectHideFlags: 0
@@ -2537,7 +2560,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.418, y: 0.6918812}
   m_AnchorMax: {x: 0.446, y: 0.72758746}
-  m_AnchoredPosition: {x: 0.80000305, y: -0.80000305}
+  m_AnchoredPosition: {x: 0.7999878, y: -0.7999878}
   m_SizeDelta: {x: 200, y: 26}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &144623246
@@ -9225,9 +9248,14 @@ MonoBehaviour:
   walkSpeed: 1
   chaseSpeed: 4
   sightDistance: 30
+  attackRange: 2
+  attackCooldown: 2
+  attackAnimationDuration: 1
+  attackDamage: 1
   idleSound: {fileID: 8300000, guid: 727cc9b5b68ce4a4da1968c42eda6842, type: 3}
   walkingSound: {fileID: 8300000, guid: 727cc9b5b68ce4a4da1968c42eda6842, type: 3}
   chasingSound: {fileID: 8300000, guid: 14ba1465b94f97242abee9521cae3db2, type: 3}
+  attackSound: {fileID: 0}
 --- !u!95 &1014841467
 Animator:
   serializedVersion: 7
@@ -9392,21 +9420,6 @@ CapsuleCollider:
   m_Height: 2.4067063
   m_Direction: 1
   m_Center: {x: 0, y: 0.9383533, z: 0.08}
---- !u!114 &1014841472
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1014841464}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a644f22c09d748e489a547ffa6ad3182, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextSceneName: Dead
-  delay: 0.6
-  fadeout: {fileID: 1864319998}
 --- !u!136 &1014841473
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -10481,7 +10494,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 34176ddadd47531429cb077bd1120939, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
