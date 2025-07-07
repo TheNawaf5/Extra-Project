@@ -29571,7 +29571,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 704595408275496527, guid: 34d71198bd59f3a4db26f79e7ef0ff91, type: 3}
       propertyPath: m_MaxParticleSize
-      value: 50
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 704595408275496527, guid: 34d71198bd59f3a4db26f79e7ef0ff91, type: 3}
       propertyPath: m_RenderAlignment
