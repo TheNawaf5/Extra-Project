@@ -7,6 +7,8 @@ public class LanturnPickUp : MonoBehaviour
     private GameObject OB;
     public GameObject handUI;
     public GameObject lanturn;
+    public AudioClip takeAudio;
+    public AudioSource audioSource;
 
 
     private bool inReach;
@@ -48,6 +50,10 @@ public class LanturnPickUp : MonoBehaviour
         {
             handUI.SetActive(false);
             lanturn.SetActive(true);
+            if (audioSource != null && takeAudio != null)
+            {
+                audioSource.PlayOneShot(takeAudio);
+            }
             StartCoroutine(end());
         }
     }
