@@ -49,7 +49,7 @@ public class PlayerController : MonoBehaviour
     private bool isZoomed = false;
 
     // Can The Player Move?:
-    private bool canMove = true;
+    public bool canMove = true;
 
     CharacterController characterController;
 
