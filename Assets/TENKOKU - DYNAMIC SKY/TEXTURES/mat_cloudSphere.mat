@@ -104,8 +104,8 @@ Material:
     - _NoiseAmp1: -4
     - _NoiseAmp2: 3
     - _NoiseBias: 4
-    - _NoiseBias2: 0.651
-    - _NoiseBias3: 0.663
+    - _NoiseBias2: 1
+    - _NoiseBias3: 1
     - _NoiseFreq1: 5.5
     - _NoiseFreq2: 15
     - _OcclusionStrength: 1
@@ -129,8 +129,8 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GroundColor: {r: 0.36899996, g: 0.34899998, b: 0.34099993, a: 1}
-    - _Scroll1: {r: 0.36831388, g: 0, b: -0.06494484, a: 0}
-    - _Scroll2: {r: 2.946511, g: 0, b: -0.5195587, a: 0}
+    - _Scroll1: {r: 0.02817959, g: 0, b: 0.024495728, a: 0}
+    - _Scroll2: {r: 0.22543672, g: 0, b: 0.19596583, a: 0}
     - _SkyTint: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
