@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Nawaf Folder/Dead.unity
     guid: 7bd932c4db2866445a4ce0f270bdd4e4
+  - enabled: 1
+    path: Assets/Nawaf Folder/Win.unity
+    guid: 85d3641e80606a5418aee9347c0d4387
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
